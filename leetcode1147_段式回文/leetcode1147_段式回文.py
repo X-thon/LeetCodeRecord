@@ -4,7 +4,8 @@ class Solution:
         th, tt = '', ''
         ans = 0
         while head < tail:
-            th = text[head] + th
+            # 字符串拼接的顺序很重要
+            th =  th + text[head]
             tt = text[tail] + tt
             if th == tt:
                 th, tt = '', ''
