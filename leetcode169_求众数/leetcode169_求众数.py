@@ -4,7 +4,6 @@ from typing import List
 #     def majorityElement(self, nums: List[int]) -> int:
 #         if not nums:
 #             return
-        
 #         d = {}
 #         for i in nums:
 #             if i in d:
